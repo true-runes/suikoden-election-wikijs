@@ -7999,10 +7999,10 @@ file@^0.2.2:
   resolved "https://registry.yarnpkg.com/file/-/file-0.2.2.tgz#c3dfd8f8cf3535ae455c2b423c2e52635d76b4d3"
   integrity sha512-gwabMtChzdnpDJdPEpz8Vr/PX0pU85KailuPV71Zw/un5yJVKvzukhB3qf6O3lnTwIe5CxlMYLh3jOK3w5xrLA==
 
-filepond-plugin-file-validate-type@1.2.7:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/filepond-plugin-file-validate-type/-/filepond-plugin-file-validate-type-1.2.7.tgz#34bd2585cc51a3e13d9fc46c0be9c3caec59e13d"
-  integrity sha512-HMOoS7BrpMt3YLWMylqshV7V0fJyTLZlibF4Y/Q7XFFFkzHKR+KSFiCRGZqXbFWw6hgtcl5wBC9kVwMB9AOPTg==
+filepond-plugin-file-validate-type@1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/filepond-plugin-file-validate-type/-/filepond-plugin-file-validate-type-1.2.8.tgz#58ab1815a3f505f2189e6943263ae3b6cb314bd1"
+  integrity sha512-UBTqIWbk5+5R0GBELI8svu01MHWjFSLfc9DfCMvFtHKXLdJMxY1p37ChC4YKQjhfODaTuvLnNVRsukMGMFZBBg==
 
 filepond@4.21.1:
   version "4.21.1"
