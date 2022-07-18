@@ -6,12 +6,7 @@
   "main": "wiki.js",
   "dev": false,
   "scripts": {
-    "start": "node server",
-    "dev": "node dev",
-    "build": "webpack --profile --config dev/webpack/webpack.prod.js",
-    "watch": "webpack --config dev/webpack/webpack.dev.js",
-    "test": "eslint --format codeframe --ext .js,.vue . && pug-lint server/views && jest",
-    "cypress:open": "cypress open"
+    "start": "node server"
   },
   "repository": {
     "type": "git",
@@ -33,7 +28,7 @@
   },
   "homepage": "https://github.com/Requarks/wiki#readme",
   "engines": {
-    "node": ">=10.12"
+    "node": "16.x"
   },
   "dependencies": {
     "@azure/storage-blob": "12.9.0",
