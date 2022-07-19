@@ -1,34 +1,24 @@
 {
   "name": "wiki",
-  "version": "2.5.285",
-  "releaseDate": "2019-01-01T01:01:01.000Z",
   "description": "A modern, lightweight and powerful wiki app built on NodeJS, Git and Markdown",
-  "main": "wiki.js",
-  "dev": false,
-  "scripts": {
-    "start": "node server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Requarks/wiki.git"
-  },
-  "keywords": [
-    "wiki",
-    "wikis",
-    "docs",
-    "documentation",
-    "markdown",
-    "guides",
-    "knowledge base"
-  ],
+  "version": "2.5.285",
   "author": "Nicolas Giard",
-  "license": "AGPL-3.0",
+  "browserslist": [
+    "> 1%",
+    "last 2 major versions",
+    "Firefox ESR",
+    "not ie > 0",
+    "not ie_mob > 0",
+    "not android > 0",
+    "not dead"
+  ],
   "bugs": {
     "url": "https://github.com/Requarks/wiki/issues"
   },
-  "homepage": "https://github.com/Requarks/wiki#readme",
-  "engines": {
-    "node": "16.x"
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/wikijs",
+    "logo": "https://opencollective.com/opencollective/logo.txt"
   },
   "dependencies": {
     "@azure/storage-blob": "12.9.0",
@@ -181,6 +171,7 @@
     "xss": "1.0.11",
     "yargs": "16.1.0"
   },
+  "dev": false,
   "devDependencies": {
     "@babel/cli": "7.18.9",
     "@babel/core": "7.18.9",
@@ -322,19 +313,21 @@
     "xterm": "4.9.0",
     "zxcvbn": "4.4.2"
   },
-  "resolutions": {
-    "apollo-server-express/**/graphql-tools": "4.0.8",
-    "graphql": "15.3.0"
+  "engines": {
+    "node": "16.x"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 major versions",
-    "Firefox ESR",
-    "not ie > 0",
-    "not ie_mob > 0",
-    "not android > 0",
-    "not dead"
+  "homepage": "https://github.com/Requarks/wiki#readme",
+  "keywords": [
+    "docs",
+    "documentation",
+    "guides",
+    "knowledge base",
+    "markdown",
+    "wiki",
+    "wikis"
   ],
+  "license": "AGPL-3.0",
+  "main": "wiki.js",
   "postcss": {
     "plugins": {
       "autoprefixer": {},
@@ -377,9 +370,16 @@
       "server/views/legacy/master.pug"
     ]
   },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/wikijs",
-    "logo": "https://opencollective.com/opencollective/logo.txt"
+  "releaseDate": "2019-01-01T01:01:01.000Z",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Requarks/wiki.git"
+  },
+  "resolutions": {
+    "apollo-server-express/**/graphql-tools": "4.0.8",
+    "graphql": "15.3.0"
+  },
+  "scripts": {
+    "start": "node server"
   }
 }
