@@ -315,7 +315,7 @@
     "webpack-hot-middleware": "2.25.1",
     "webpack-merge": "5.2.0",
     "webpack-modernizr-loader": "5.0.0",
-    "webpack-subresource-integrity": "1.5.1",
+    "webpack-subresource-integrity": "1.5.2",
     "webpackbar": "4.0.0",
     "whatwg-fetch": "3.6.2",
     "write-file-webpack-plugin": "4.5.1",
