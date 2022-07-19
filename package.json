@@ -43,7 +43,7 @@
     "cheerio": "1.0.0-rc.5",
     "chokidar": "3.5.3",
     "chromium-pickle-js": "0.2.0",
-    "clean-css": "4.2.3",
+    "clean-css": "4.2.4",
     "command-exists": "1.2.9",
     "compression": "1.7.4",
     "connect-session-knex": "2.0.0",
