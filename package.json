@@ -23,7 +23,7 @@
   "dependencies": {
     "@azure/storage-blob": "12.9.0",
     "@exlinc/keycloak-passport": "1.0.2",
-    "@joplin/turndown-plugin-gfm": "1.0.43",
+    "@joplin/turndown-plugin-gfm": "1.0.44",
     "@root/csr": "0.8.1",
     "@root/keypairs": "0.10.3",
     "@root/pem": "1.0.4",
