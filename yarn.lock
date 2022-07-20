@@ -15896,13 +15896,13 @@ sqlstring@^2.3.2:
   resolved "https://registry.yarnpkg.com/sqlstring/-/sqlstring-2.3.3.tgz#2ddc21f03bce2c387ed60680e739922c65751d0c"
   integrity sha512-qC9iz2FlN7DQl3+wjwn3802RTyjCx7sDvfQEXchwa6CWOx07/WVfh91gBmQ9fahw8snwGEWU3xGzOt4tFyHLxg==
 
-ssh2-promise@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/ssh2-promise/-/ssh2-promise-1.0.2.tgz#50f1dc18c9898a93a62c3c5873ae60a66fff1af1"
-  integrity sha512-W+nNjW/kGSZn/Ln2wrjo/hlC4ZlCDyLck2FAY7zv72IA4ULPyybVdjVB31SzGFuLY+zlauc4SFGEICDlpVdVAg==
+ssh2-promise@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/ssh2-promise/-/ssh2-promise-1.0.3.tgz#7c890e3f27536abf02b55337a307e49420004dda"
+  integrity sha512-842MuERRLuGdTneOZhc5HeogBtGFI/WeeJ9LH3Jp+eB57av8hHGDzxZqgWuQmuxVDniRf7B+agSfgc2wKfLY4w==
   dependencies:
     "@heroku/socksv5" "^0.0.9"
-    ssh2 "^1.4.0"
+    ssh2 "^1.10.0"
 
 ssh2@1.5.0:
   version "1.5.0"
@@ -15915,7 +15915,7 @@ ssh2@1.5.0:
     cpu-features "0.0.2"
     nan "^2.15.0"
 
-ssh2@^1.4.0:
+ssh2@^1.10.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/ssh2/-/ssh2-1.11.0.tgz#ce60186216971e12f6deb553dcf82322498fe2e4"
   integrity sha512-nfg0wZWGSsfUe/IBJkXVll3PEZ//YH2guww+mP88gTpuSU4FtZN7zu9JoeTGOyCNx2dTDtT9fOpWwlzyj4uOOw==
