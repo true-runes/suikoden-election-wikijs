@@ -156,7 +156,7 @@
     "serve-favicon": "2.5.0",
     "simple-git": "2.21.0",
     "solr-node": "1.2.1",
-    "sqlite3": "5.0.6",
+    "sqlite3": "5.0.11",
     "ssh2": "1.5.0",
     "ssh2-promise": "1.0.2",
     "striptags": "3.2.0",
