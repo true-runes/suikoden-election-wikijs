@@ -4799,10 +4799,10 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805, can
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001367.tgz#2b97fe472e8fa29c78c5970615d7cd2ee414108a"
   integrity sha512-XDgbeOHfifWV3GEES2B8rtsrADx4Jf+juKX2SICJcaUhjYBO3bR96kvEIHa15VU6ohtOhBZuPGGYGbXMRn0NCw==
 
-canvas-confetti@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/canvas-confetti/-/canvas-confetti-1.3.1.tgz#40d3af7a8079d1002a555462f587fb06cc4a81ab"
-  integrity sha512-gX4K7JH9JsjEl6eOUa5/NilKExT/9uxXg6Z2+Z2O/lgU/pc1Rfd97Q+bBHQpnZeYfBEbvp1iU8e0CKW+1WBdGw==
+canvas-confetti@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/canvas-confetti/-/canvas-confetti-1.5.1.tgz#bf5b8622ef3bcd347378a972fc4194a89cfe0c9b"
+  integrity sha512-Ncz+oZJP6OvY7ti4E1slxVlyAV/3g7H7oQtcCDXgwGgARxPnwYY9PW5Oe+I8uvspYNtuHviAdgA0LfcKFWJfpg==
 
 capture-exit@^2.0.0:
   version "2.0.0"
