@@ -59,7 +59,7 @@
     "elasticsearch6": "npm:@elastic/elasticsearch@6",
     "elasticsearch7": "npm:@elastic/elasticsearch@7",
     "emoji-regex": "9.2.2",
-    "eventemitter2": "6.4.5",
+    "eventemitter2": "6.4.9",
     "express": "4.18.1",
     "express-brute": "1.0.1",
     "express-session": "1.17.2",
