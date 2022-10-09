@@ -8293,10 +8293,10 @@ filepond-plugin-file-validate-type@1.2.7:
   resolved "https://registry.yarnpkg.com/filepond-plugin-file-validate-type/-/filepond-plugin-file-validate-type-1.2.7.tgz#34bd2585cc51a3e13d9fc46c0be9c3caec59e13d"
   integrity sha512-HMOoS7BrpMt3YLWMylqshV7V0fJyTLZlibF4Y/Q7XFFFkzHKR+KSFiCRGZqXbFWw6hgtcl5wBC9kVwMB9AOPTg==
 
-filepond@4.21.1:
-  version "4.21.1"
-  resolved "https://registry.yarnpkg.com/filepond/-/filepond-4.21.1.tgz#b92dfa654732d504864cc770c6f9407429df6626"
-  integrity sha512-mVCc4lR63dSP6a0LW9bRlRGIrAgRuuQAWDxdDJzAXQ9JWtUQtyvFlxgaU/02jYrBIBYvnQV+AJ/dgG9HOKfCKw==
+filepond@4.30.4:
+  version "4.30.4"
+  resolved "https://registry.yarnpkg.com/filepond/-/filepond-4.30.4.tgz#036d87d9b0ab27d19fb5e302eae799df90e094e4"
+  integrity sha512-FCwsMvG9iiEs6uobdDrTaKsCgsqys0NuLgPPD8n37AYVYBiiDkrPkk9MSIU5rT2FahYcL1bScYI9huIPtlzqyA==
 
 filesize.js@2.0.0:
   version "2.0.0"
