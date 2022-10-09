@@ -1,0 +1,8 @@
+.github/
+node_modeules/
+.history/
+data/
+.envrc
+.gitignore
+config.sample.yml
+renovate.json
