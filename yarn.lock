@@ -17725,10 +17725,10 @@ vuedraggable@2.24.3:
   dependencies:
     sortablejs "1.10.2"
 
-vuescroll@4.16.1:
-  version "4.16.1"
-  resolved "https://registry.yarnpkg.com/vuescroll/-/vuescroll-4.16.1.tgz#498099fd0e0a47bf09e1d0cb91fc3533a6804e58"
-  integrity sha512-7fRsG2Yw5Z07LUz/IIu9barpmYiN9q+ZTC+CrVamvCbmsxyhz8mU1OuYFbfORysaUskioNMxTGDo+HOzeDfSyQ==
+vuescroll@4.17.5:
+  version "4.17.5"
+  resolved "https://registry.yarnpkg.com/vuescroll/-/vuescroll-4.17.5.tgz#25a3b86f14a31abac4a7e2e57d47da899f16fa06"
+  integrity sha512-TjzRp0OpF99SiulIFw2txoT5tbUyCT0IaMiMw87r1shbQ6Mi94ZcEJ294ihEaiVcHHDpTm9oEudIkWThz7HUPQ==
 
 vuetify-loader@1.6.0:
   version "1.6.0"
