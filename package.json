@@ -21,7 +21,7 @@
     "logo": "https://opencollective.com/opencollective/logo.txt"
   },
   "dependencies": {
-    "@azure/storage-blob": "12.9.0",
+    "@azure/storage-blob": "12.11.0",
     "@exlinc/keycloak-passport": "1.0.2",
     "@joplin/turndown-plugin-gfm": "1.0.43",
     "@root/csr": "0.8.1",
