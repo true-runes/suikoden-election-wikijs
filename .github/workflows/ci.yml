@@ -1,0 +1,59 @@
+name: 幻水総選挙 Wiki
+
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - 'v*.*.*'
+  workflow_dispatch:
+
+env:
+  # TODO: Git のタグを取得して、イメージのタグにする
+  DOCKER_IMAGE: asia-northeast1-docker.pkg.dev/${{ secrets.CLOUD_RUN_PROJECT }}/cloud-run-source-deploy/${{ secrets.CLOUD_RUN_SERVICE_NAME }}
+  GCP_REGION: ${{ secrets.CLOUD_RUN_REGION }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: yarn
+    - name: $ yarn install
+      run: |
+        yarn install --frozen-lockfile
+
+  deploy_to_cloud_run:
+    needs: build
+    if: ${{ github.ref_name == 'main' }}
+    name: Cloud Run にデプロイする
+    runs-on: ubuntu-latest
+    steps:
+      - name: ソースコードをチェックアウトする
+        uses: actions/checkout@v3
+      - name: GCP の認証を行う
+        uses: google-github-actions/auth@v0
+        with:
+          credentials_json: ${{ secrets.GCP_SERVICE_ACCOUNT_CREDENTIALS }}
+      - name: GCP の CLI の認証を行う
+        run: |
+          gcloud auth configure-docker asia-northeast1-docker.pkg.dev
+      - name: Docker イメージ をビルドする
+        run: |
+          docker build -t ${{ env.DOCKER_IMAGE }} .
+      - name: Docker イメージ をプッシュする
+        run: |
+          docker push ${{ env.DOCKER_IMAGE }}
+      - name: Deploy to Cloud Run
+        uses: google-github-actions/deploy-cloudrun@v0
+        with:
+          service: ${{ secrets.CLOUD_RUN_SERVICE_NAME }}
+          image: ${{ env.DOCKER_IMAGE }}
+          region: ${{ env.GCP_REGION }}
