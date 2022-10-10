@@ -298,7 +298,7 @@
     "vuetify-loader": "1.9.2",
     "vuex": "3.6.2",
     "vuex-pathify": "1.5.1",
-    "vuex-persistedstate": "3.1.0",
+    "vuex-persistedstate": "3.2.1",
     "webpack": "4.44.2",
     "webpack-bundle-analyzer": "3.9.0",
     "webpack-cli": "3.3.12",
